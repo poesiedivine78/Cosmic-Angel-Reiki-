@@ -289,7 +289,7 @@ const PathologiesExplorer = () => {
                   </ul>
                 </div>
 
-                <div className="pt-6 border-t border-white/5">
+                <div className="pt-6 border-t border-white/5 mt-auto">
                   <div className="flex justify-between text-[10px] uppercase font-bold tracking-widest mb-2">
                     <span>Impact Fréquentiel</span>
                     <span className="text-violet-400">{activeTab === 'physique' ? p.impact.physical : activeTab === 'psychique' ? p.impact.emotional : p.impact.spiritual}%</span>
@@ -304,7 +304,7 @@ const PathologiesExplorer = () => {
 
                 <button 
                   onClick={() => scrollToSection('soin')}
-                  className="w-full py-4 bg-white/5 text-[10px] uppercase font-black tracking-[0.2em] text-white hover:bg-white hover:text-black transition-all rounded-2xl flex items-center justify-center gap-2 border border-white/10 mt-auto"
+                  className="w-full py-4 bg-white/5 text-[10px] uppercase font-black tracking-[0.2em] text-white hover:bg-white hover:text-black transition-all rounded-2xl flex items-center justify-center gap-2 border border-white/10"
                 >
                   Découvrir ce soin <ArrowRight size={14} />
                 </button>
@@ -528,7 +528,7 @@ const Footer = () => (
               <p className="text-[10px] text-violet-400 font-bold tracking-[0.3em] uppercase">Starseed Cosmic Angel</p>
             </div>
           </div>
-          <p className="text-sm text-slate-500 leading-relaxed mb-8 max-w-sm">
+          <p className="text-sm text-slate-500 leading-relaxed mb-8 max-sm">
             Maître Praticien Reiki spécialisé dans l'éveil Starseed et la transmutation des mémoires cellulaires. Guide vers votre souveraineté fréquentielle.
           </p>
           <div className="flex gap-4">

@@ -88,187 +88,187 @@ export interface HealingPathology {
 export const PATHOLOGIES: Record<string, HealingPathology[]> = {
   physique: [
     { 
-      title: "Douleurs Chroniques", 
+      title: "Douleurs & Tensions", 
       reiki: "Usui", 
-      desc: "Soulagement des tensions cristallisées dans le corps.", 
+      desc: "Libération des nœuds physiques et musculaires.", 
       icon: "Activity",
-      impact: { physical: 90, emotional: 40, spiritual: 20 },
+      impact: { physical: 95, emotional: 30, spiritual: 15 },
       details: {
-        origin: "Énergie stagnante suite à un traumatisme non résolu ou une posture émotionnelle rigide.",
-        benefits: ["Relâchement myofascial", "Diminution de l'inflammation", "Réparation cellulaire accélérée"],
-        recommendation: "3 à 5 séances pour un déracinement durable."
+        origin: "Somatisation d'une rigidité mentale ou d'un refus de 'lâcher-prise'.",
+        benefits: ["Relâchement musculaire profond", "Drainage lymphatique énergétique", "Sensation de légèreté"],
+        recommendation: "3 séances pour un déblocage complet."
       }
     },
     { 
-      title: "Fatigue & Burn-out", 
+      title: "Fatigue Chronique", 
       reiki: "Kundalini", 
-      desc: "Recharge vitale pour les systèmes épuisés.", 
+      desc: "Recharge des batteries vitales et du Prana.", 
       icon: "Zap",
-      impact: { physical: 85, emotional: 75, spiritual: 50 },
+      impact: { physical: 90, emotional: 60, spiritual: 40 },
       details: {
-        origin: "Fuite énergétique majeure au niveau du plexus solaire et épuisement des surrénales.",
-        benefits: ["Restauration du Prana", "Clarté mentale retrouvée", "Motivation profonde"],
-        recommendation: "Accompagnement de 4 séances (Protocole Phoenix conseillé)."
+        origin: "Fuite énergétique au Plexus Solaire suite à un stress prolongé.",
+        benefits: ["Vitalité immédiate", "Soutien des surrénales", "Clarté d'esprit"],
+        recommendation: "4 séances (Cycle régénérant)."
       }
     },
     { 
-      title: "Stress & Sommeil", 
+      title: "Insomnie & Sommeil", 
       reiki: "Usui", 
-      desc: "Régulation du système nerveux pour un repos total.", 
+      desc: "Apaisement du système nerveux pour la nuit.", 
       icon: "Moon",
-      impact: { physical: 70, emotional: 60, spiritual: 30 },
+      impact: { physical: 75, emotional: 80, spiritual: 30 },
       details: {
-        origin: "Hyper-stimulation du chakra frontal et manque d'ancrage racinaire.",
-        benefits: ["Apaisement du système parasympathique", "Sommeil réparateur", "Diminution du cortisol"],
-        recommendation: "2 séances pour stabiliser le cycle du sommeil."
+        origin: "Hyper-activation du mental et déconnexion de l'ancrage terrestre.",
+        benefits: ["Endormissement rapide", "Sommeil non-fragmenté", "Repos des cellules"],
+        recommendation: "2 séances pour stabiliser le cycle."
       }
     },
     { 
       title: "Troubles Digestifs", 
       reiki: "Usui", 
-      desc: "Libération du plexus solaire et du ventre.", 
+      desc: "Libération du 'deuxième cerveau' émotionnel.", 
       icon: "Wind",
-      impact: { physical: 80, emotional: 65, spiritual: 25 },
+      impact: { physical: 85, emotional: 70, spiritual: 20 },
       details: {
-        origin: "Contrôle excessif ou émotions 'non digérées' stagnantes dans le ventre.",
-        benefits: ["Relance du transit", "Apaisement du feu digestif", "Harmonie viscérale"],
-        recommendation: "3 séances pour un rééquilibrage global."
+        origin: "Difficulté à assimiler des événements de vie ou émotions 'lourdes'.",
+        benefits: ["Confort viscéral", "Apaisement du feu intérieur", "Transit régulé"],
+        recommendation: "3 séances focalisées sur le ventre."
       }
     },
     { 
-      title: "Migraines & Tensions", 
+      title: "Migraines & Céphalées", 
       reiki: "Kundalini", 
-      desc: "Décompression mentale et fluidité circulatoire.", 
+      desc: "Décompression de la sphère cérébrale.", 
       icon: "Layers",
-      impact: { physical: 75, emotional: 70, spiritual: 40 },
+      impact: { physical: 80, emotional: 60, spiritual: 50 },
       details: {
-        origin: "Suractivité mentale et surcharge au niveau du chakra de la couronne.",
-        benefits: ["Baisse de la pression intracrânienne", "Libération des cervicales", "Clarté de vision"],
-        recommendation: "2 à 3 séances de déblocage intense."
+        origin: "Saturation du Chakra Couronne par un excès de contrôle mental.",
+        benefits: ["Baisse de la pression mentale", "Vision plus nette", "Paix intérieure"],
+        recommendation: "2 séances d'urgence ou 3 en préventif."
       }
     }
   ],
   psychique: [
     { 
-      title: "Anxiété & Peurs", 
+      title: "Anxiété & Angoisses", 
       reiki: "Usui", 
-      desc: "Sécurisation émotionnelle et retour au présent.", 
-      icon: "Brain",
-      impact: { physical: 50, emotional: 95, spiritual: 40 },
-      details: {
-        origin: "Fragilité de l'aura laissant filtrer les énergies environnantes négatives.",
-        benefits: ["Bulle de protection énergétique", "Confiance en soi", "Sérénité face à l'imprévu"],
-        recommendation: "3 séances espacées de 15 jours."
-      }
-    },
-    { 
-      title: "Blocages Émotionnels", 
-      reiki: "Kundalini", 
-      desc: "Libération des mémoires cellulaires anciennes.", 
-      icon: "Heart",
-      impact: { physical: 40, emotional: 100, spiritual: 60 },
-      details: {
-        origin: "Empreintes karmiques ou d'enfance logées dans le chakra du cœur.",
-        benefits: ["Pleurs libérateurs", "Ouverture du cœur", "Transmutation des rancœurs"],
-        recommendation: "1 à 2 séances intenses."
-      }
-    },
-    { 
-      title: "Deuil & Séparation", 
-      reiki: "Usui", 
-      desc: "Accompagnement dans la transition et l'acceptation.", 
+      desc: "Retrouver une sécurité intérieure solide.", 
       icon: "Shield",
-      impact: { physical: 30, emotional: 90, spiritual: 70 },
+      impact: { physical: 40, emotional: 100, spiritual: 40 },
       details: {
-        origin: "Coupure brutale des liens énergétiques sans fermeture de cycle.",
-        benefits: ["Apaisement du manque", "Acceptation du départ", "Reconstruction de l'espace sacré"],
-        recommendation: "4 séances pour traverser les étapes du deuil."
+        origin: "Faille dans le corps éthérique laissant passer les peurs collectives.",
+        benefits: ["Calme instantané", "Sentiment de protection", "Respiration libérée"],
+        recommendation: "3 séances (Sécurisation éthérique)."
+      }
+    },
+    { 
+      title: "Chocs Émotionnels", 
+      reiki: "Kundalini", 
+      desc: "Transmutation des traumatismes récents.", 
+      icon: "Heart",
+      impact: { physical: 50, emotional: 95, spiritual: 60 },
+      details: {
+        origin: "Cristallisation d'une douleur vive dans les mémoires cellulaires.",
+        benefits: ["Libération des pleurs", "Cicatrisation du cœur", "Retour à la joie"],
+        recommendation: "1 à 2 séances intensives."
+      }
+    },
+    { 
+      title: "Dépression & Apathie", 
+      reiki: "Kundalini", 
+      desc: "Rallumer l'étincelle de vie intérieure.", 
+      icon: "Zap",
+      impact: { physical: 60, emotional: 90, spiritual: 80 },
+      details: {
+        origin: "Perte de connexion avec sa propre force vitale et ses désirs d'âme.",
+        benefits: ["Reprise d'activité", "Envie d'agir", "Réalignement des envies"],
+        recommendation: "Accompagnement de 5 séances minimum."
       }
     },
     { 
       title: "Confiance en Soi", 
-      reiki: "Kundalini", 
-      desc: "Rayonnement du pouvoir personnel intérieur.", 
-      icon: "Zap",
-      impact: { physical: 60, emotional: 85, spiritual: 50 },
+      reiki: "Usui", 
+      desc: "Affirmation de sa légitimité et de sa place.", 
+      icon: "Stars",
+      impact: { physical: 30, emotional: 85, spiritual: 70 },
       details: {
-        origin: "Affaissement du chakra du plexus solaire suite à des dévalorisations répétées.",
-        benefits: ["Posture de leader retrouvée", "Capacité d'action directe", "Affirmation de sa vérité"],
-        recommendation: "3 séances d'activation de la force intérieure."
+        origin: "Faiblesse du Plexus Solaire et jugements limitants hérités.",
+        benefits: ["Posture droite", "Prise de parole aisée", "Rayonnement solaire"],
+        recommendation: "3 séances de renforcement solaire."
       }
     },
     { 
       title: "Charge Mentale", 
       reiki: "Usui", 
-      desc: "Vider le trop-plein pour retrouver le calme.", 
-      icon: "Layers",
-      impact: { physical: 45, emotional: 80, spiritual: 35 },
+      desc: "Nettoyage du trop-plein d'informations.", 
+      icon: "Brain",
+      impact: { physical: 50, emotional: 80, spiritual: 40 },
       details: {
-        origin: "Saturation du canal mental par une accumulation de responsabilités.",
-        benefits: ["Silence intérieur", "Priorisation intuitive", "Détachement émotionnel"],
-        recommendation: "2 séances pour un nettoyage mental profond."
+        origin: "Saturation des centres mentaux par une suractivité analytique.",
+        benefits: ["Discernement", "Priorités claires", "Calme cognitif"],
+        recommendation: "2 séances pour un 'Reset' mental."
       }
     }
   ],
   spirituel: [
     { 
-      title: "Perte de Sens", 
-      reiki: "Usui", 
-      desc: "Réalignement avec votre mission d'âme.", 
-      icon: "Compass",
-      impact: { physical: 10, emotional: 60, spiritual: 100 },
-      details: {
-        origin: "Déconnexion du Moi Supérieur et oubli des codes stellaires originels.",
-        benefits: ["Intuition décuplée", "Synchronicités accrues", "Vision claire de son chemin"],
-        recommendation: "1 séance de reconnexion profonde."
-      }
-    },
-    { 
-      title: "Syndrome Starseed", 
+      title: "Éveil Starseed", 
       reiki: "Kundalini", 
-      desc: "S'ancrer dans l'incarnation terrestre.", 
+      desc: "Intégrer ses origines stellaires ici-bas.", 
       icon: "Stars",
-      impact: { physical: 35, emotional: 70, spiritual: 95 },
+      impact: { physical: 40, emotional: 60, spiritual: 100 },
       details: {
-        origin: "Difficulté de l'âme à supporter la densité vibratoire de la Terre.",
-        benefits: ["Sentiment d'appartenance", "Ancrage puissant", "Activation des codes d'origine"],
-        recommendation: "2 séances pour harmoniser ciel et terre."
+        origin: "Nostalgie d'ailleurs et difficulté à s'adapter à la densité terrestre.",
+        benefits: ["Ancrage multidimensionnel", "Acceptation du corps", "Paix cosmique"],
+        recommendation: "3 séances (Accompagnement Starseed)."
       }
     },
     { 
-      title: "Intuition Bloquée", 
+      title: "Mission de Vie", 
       reiki: "Usui", 
-      desc: "Ouverture du 3ème œil et clairvoyance.", 
-      icon: "Eye",
-      impact: { physical: 5, emotional: 50, spiritual: 90 },
+      desc: "Trouver sa voie et son utilité divine.", 
+      icon: "Compass",
+      impact: { physical: 20, emotional: 50, spiritual: 100 },
       details: {
-        origin: "Peur inconsciente du monde invisible ou rationalisation excessive.",
-        benefits: ["Perceptions subtiles accrues", "Rêves lucides", "Confiance en ses ressentis"],
-        recommendation: "3 séances de déblocage du chakra frontal."
+        origin: "Déconnexion du plan d'incarnation choisi avant la naissance.",
+        benefits: ["Guidance claire", "Synchronicités fortes", "Action alignée"],
+        recommendation: "1 séance de reconnexion au Soi."
       }
     },
     { 
-      title: "Mémoires Karmiques", 
-      reiki: "Kundalini", 
-      desc: "Nettoyage des dettes et schémas ancestraux.", 
-      icon: "History",
-      impact: { physical: 20, emotional: 75, spiritual: 100 },
+      title: "Dons & Intuition", 
+      reiki: "Usui", 
+      desc: "Déblocage des capacités extrasensorielles.", 
+      icon: "Eye",
+      impact: { physical: 10, emotional: 40, spiritual: 95 },
       details: {
-        origin: "Pactes, vœux ou traumatismes issus de vies antérieures.",
-        benefits: ["Libération des schémas répétitifs", "Allègement de l'âme", "Souveraineté retrouvée"],
-        recommendation: "Cycle de 5 séances (Protocole Phoenix vivement conseillé)."
+        origin: "Blocage au 3ème Œil suite à des peurs ou des refoulés d'enfance.",
+        benefits: ["Visions plus claires", "Ressenti vibratoire", "Confiance intuitive"],
+        recommendation: "3 séances focalisées sur le 3ème œil."
+      }
+    },
+    { 
+      title: "Passé & Karma", 
+      reiki: "Kundalini", 
+      desc: "Nettoyage des liens et dettes karmiques.", 
+      icon: "History",
+      impact: { physical: 30, emotional: 70, spiritual: 100 },
+      details: {
+        origin: "Résonance de traumatismes vécus dans d'autres espaces-temps.",
+        benefits: ["Schémas rompus", "Liberté de choix", "Allègement de l'âme"],
+        recommendation: "Protocole Phoenix (4 séances)."
       }
     },
     { 
       title: "Nuit Noire de l'Âme", 
       reiki: "Kundalini", 
-      desc: "Renaître après un effondrement spirituel.", 
+      desc: "Renaissance après l'effondrement spirituel.", 
       icon: "RefreshCw",
-      impact: { physical: 40, emotional: 90, spiritual: 100 },
+      impact: { physical: 50, emotional: 80, spiritual: 100 },
       details: {
-        origin: "Mort de l'ego nécessaire pour une ascension vibratoire majeure.",
-        benefits: ["Lumière dans l'obscurité", "Force de résilience divine", "Transformation radicale"],
-        recommendation: "Accompagnement long terme (6 séances) ou Phoenix."
+        origin: "Désintégration de l'ancien ego pour une mise à jour fréquentielle.",
+        benefits: ["Résilience divine", "Clarté après le chaos", "Ascension stabilisée"],
+        recommendation: "Suivi mensuel ou 6 séances rapprochées."
       }
     }
   ]
